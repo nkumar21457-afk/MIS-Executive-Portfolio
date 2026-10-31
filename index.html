@@ -1,31 +1,185 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Neeraj Kumar - MIS Executive</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neeraj Kumar | MIS Executive</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #263445;
+}
+
+header {
+    background: #142b49;
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background: #203d60;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+section {
+    max-width: 950px;
+    margin: 25px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #1763a6;
+}
+
+.skills span {
+    display: inline-block;
+    background: #e6f0fa;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 6px;
+}
+
+.project {
+    padding: 15px;
+    margin: 12px 0;
+    background: #f1f5fa;
+    border-radius: 8px;
+}
+
+.project a {
+    color: #1763a6;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #142b49;
+    color: white;
+}
+
+button {
+    padding: 12px 22px;
+    background: #1763a6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+</style>
 </head>
+
 <body>
+
+<header>
     <h1>Neeraj Kumar</h1>
-    <h2>MIS Executive</h2>
+    <p>MIS Executive | Excel Reporting | Quality MIS</p>
+    <p>Faridabad, Haryana, India</p>
+</header>
 
-    <h3>About Me</h3>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
     <p>
-        I have 4 years of experience in
-        Quality Inspection and Supervision.
+    I have 4 years of experience in Quality Inspection
+    and Supervision. I have experience in manpower
+    handling, report management and data documentation.
     </p>
+    <p>
+    I am developing my skills in MIS Reporting,
+    Excel, Python Pandas and Power BI.
+    </p>
+    <p>
+    Education: Diploma in Mechanical Engineering
+    </p>
+</section>
 
-    <h3>My Skills</h3>
-    <p>Microsoft Excel | MIS Reporting |
-    Data Management | Python | Power BI</p>
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <span>Microsoft Excel</span>
+        <span>MIS Reporting</span>
+        <span>Data Management</span>
+        <span>Quality Inspection</span>
+        <span>Manpower Handling</span>
+        <span>Python Pandas (Learning)</span>
+        <span>Power BI (Learning)</span>
+    </div>
+</section>
 
-    <h3>My Projects</h3>
-    <ul>
-        <li>Employee Attendance MIS Report</li>
-        <li>Monthly Salary MIS Report</li>
-        <li>Quality Rejection MIS Report</li>
-    </ul>
+<section id="projects">
+    <h2>My Projects</h2>
 
-    <h3>Education</h3>
-    <p>Diploma in Mechanical Engineering</p>
+    <div class="project">
+        <h3>1. Employee Attendance MIS Report</h3>
+        <p>Employee attendance and present days analysis.</p>
+        <a href="Employee_Attendance_Report.xlsx">
+        View Excel Project
+        </a>
+    </div>
+
+    <div class="project">
+        <h3>2. Monthly Salary MIS Report</h3>
+        <p>Salary calculation and department-wise analysis.</p>
+        <a href="Monthly_Salary_MIS_Report.xlsx">
+        View Excel Project
+        </a>
+    </div>
+
+    <div class="project">
+        <h3>3. Quality Rejection MIS Report</h3>
+        <p>Defect-wise and department-wise rejection analysis.</p>
+        <a href="Quality_Rejection_MIS_Report.xlsx">
+        View Excel Project
+        </a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Location: Faridabad, Haryana</p>
+    <p>GitHub: nkumar21457-afk</p>
+    <a href="https://github.com/nkumar21457-afk"
+       target="_blank">
+       <button>Visit My GitHub</button>
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Neeraj Kumar | MIS Executive Portfolio</p>
+</footer>
+
 </body>
 </html>
