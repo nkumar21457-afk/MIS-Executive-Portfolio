@@ -25,3 +25,32 @@ Tools Used
 Created By
 Neeraj Kumar  
 MIS Executive Portfolio
+
+
+ Project 2: Monthly Salary MIS Report
+
+Project Overview
+This project analyzes employee salary data using Microsoft Excel.
+
+ Key Features
+- Total Salary Calculation
+- Average Salary Calculation
+- Highest Salary Analysis
+- Department-wise Salary Report
+
+Excel Formulas Used
+- SUM()
+- AVERAGE()
+- MAX()
+- SUMIF()
+
+ Tools Used
+- Microsoft Excel
+- GitHub
+  
+Project Objective
+
+To prepare monthly salary reports and provide department-wise salary information to management.
+
+### Project Objective
+To prepare monthly salary reports and provide department-wise salary information to management.
